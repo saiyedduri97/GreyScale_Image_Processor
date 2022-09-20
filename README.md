@@ -16,6 +16,8 @@ the matlab_file_io_pavan has the main code for the program to run.
 - Image processsing tool generates the processed image in comparision with the origional image.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
 
+![Alt_text](https://github.com/saiyedduri97/GreyScale_Image_Processor/blob/main/GreyScaleImage.pgm)
+
 ## Version Requirements:
 - Requires MATLAB 
 - Matlab [Image Processing Tool Box](https://www.mathworks.com/products/image.html) available for Mac, Windows and LINUX
