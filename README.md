@@ -15,8 +15,9 @@ the matlab_file_io_pavan has the main code for the program to run.
 - Choose the level of blur(or/and))sharpened blur(or/and)find edges to the image from 0 to 5. where,0 represents the no modification and 5 represents the highest modification.
 - Image processsing tool generates the processed image in comparision with the origional image.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
-- 
-![edge_detection](https://user-images.githubusercontent.com/114020643/191363648-1e348c00-2a86-4735-be8a-a727c28928a0.jpg)
+- ![EDGE](https://user-images.githubusercontent.com/114020643/191364267-e4957f01-95f4-435c-8af7-54acedde241b.jpg)
+
+
 
 
 ## Version Requirements:
