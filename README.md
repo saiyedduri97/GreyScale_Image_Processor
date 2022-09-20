@@ -16,8 +16,7 @@ the matlab_file_io_pavan has the main code for the program to run.
 - Image processsing tool generates the processed image in comparision with the origional image.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
 
-![GreyScaleImage](https://user-images.githubusercontent.com/114020643/191362160-5cab6924-449b-47c5-a0cf-23aaecd6b989.jpg)
-
+![blurred5andsharpen](https://user-images.githubusercontent.com/114020643/191362507-3d549beb-ddf9-4527-9cd8-7eb95276e8f7.jpg)
 
 ## Version Requirements:
 - Requires MATLAB 
