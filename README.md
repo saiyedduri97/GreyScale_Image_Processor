@@ -23,7 +23,7 @@ the matlab_file_io_pavan has the main code for the program to run.
 ## Version Requirements:
 - Requires [MATLAB](https://www.mathworks.com/help/install/install-products.html) 
 - Matlab [Image Processing Tool Box](https://www.mathworks.com/products/image.html) available for Mac, Windows and LINUX
-- Parallel Computing Toolbox is required for image processing on GPU. A list of supported functions is available on this page.
+- Parallel Computing Toolbox is required for image processing on GPU. A list of supported functions is available on [the page](https://www.mathworks.com/products/image.html).
 - Deep Learning Toolbox is required for deep learning functionality. Parallel Computing Toolbox is required for GPU support. 
 
 ## CONTRIBUTIONS:
