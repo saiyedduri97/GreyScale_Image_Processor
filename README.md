@@ -35,6 +35,11 @@ Inorder to process the pixels of the image, a widely popular mathematical techni
   <img src="https://user-images.githubusercontent.com/114020643/191390158-3bdc133c-af0e-4239-b303-bce31a99bdd7.jpg" />
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/114020643/191416200-951a3cda-2c77-4a7d-b51e-a3de9d6788e8.jpg" />
+</p>
+
+
 
 ### Conversion of pixels form unsigned integer to double datatype:
 Although both double precision numbers in range of 0 to 1 and unsignedintegers in range of 0 to 255 can be used to describe images, the image datatype is converted to double because it is provides more accurate values in the describing each pixel intensities
