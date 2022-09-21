@@ -23,8 +23,8 @@ the matlab_file_io_pavan has the main code for the program to run.
 ## Review of Code:
 ### Reading the initial user image and requirements:
 The Userinferace modal dialog box collects the image with pixel values. The matlab UI facilitated this with well-customed prompt command called "uigetfile()" to save in the current folder with matlab folder of ".m"file. The greyscaled image is read as matrix of pixel intensities ranging from 0 to 255 occupied throughout the size of the image by the "imread()". The level of modification is considered by input() commands and stors in the variables such as nr_blur,nr_sharpen and nr_edgethickness.
-## Consideration of Imageprocessing Methods:
-### Convolution technique:
+### Consideration of Imageprocessing Methods:
+#### Convolution technique:
 Inorder to process the pixels of the image, a widely popular mathematical technique known as convolution is employed.In this technique, we consider a kernel based on the technique to be performed. For Gaussian blur we consider (1/16)*[1 2 1;2 4 2;1 2 1] and for edge detection we consider [0 -1 0;-1 4 -1;0 -1 0] as kernels.Similarly for sharpening the image [0 -1 0;-1 5 -1;0 -1 0] is preferred as kernel.Along with kernel, we would consider a small matrix of image.At the intersities of the matrix is multiplied with the kernel,whose sum is replaces the center of the image.The same operation iterated through out the image.So each pixel of image is calculated by considering intensities of other pixels in matrix.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191390229-7bcd106e-a57a-4def-95c0-cc2da2e8f85d.jpg" />
