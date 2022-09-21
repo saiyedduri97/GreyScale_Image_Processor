@@ -35,10 +35,7 @@ Inorder to process the pixels of the image, a widely popular mathematical techni
   <img src="https://user-images.githubusercontent.com/114020643/191390158-3bdc133c-af0e-4239-b303-bce31a99bdd7.jpg" />
 </p>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/114020643/191416200-951a3cda-2c77-4a7d-b51e-a3de9d6788e8.jpg" />
-</p>
-
+![sharpend_code](https://user-images.githubusercontent.com/114020643/191416434-9a7e14ca-93da-49c5-bf71-05c09941aa2c.jpg)
 
 
 ### Conversion of pixels form unsigned integer to double datatype:
