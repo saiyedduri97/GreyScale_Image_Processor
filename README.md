@@ -21,7 +21,7 @@ the matlab_file_io_pavan has the main code for the program to run.
 </p>
 ![EDGE](https://user-images.githubusercontent.com/114020643/191364267-e4957f01-95f4-435c-8af7-54acedde241b.jpg)
 
-![edge_code](https://user-images.githubusercontent.com/114020643/191388086-817bbb1a-e99a-4bc6-b603-712b3927aba7.jpg)
+
 
 
 ## Version Requirements:
