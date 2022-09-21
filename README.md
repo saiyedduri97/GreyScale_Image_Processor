@@ -31,9 +31,8 @@ The Userinferace modal dialog box collects the image with pixel values. The matl
 #### Convolution technique:
 Inorder to process the pixels of the image, a widely popular mathematical technique known as convolution is employed.In this technique, we consider a kernel based on the technique to be performed. For Gaussian blur we consider (1/16)*[1 2 1;2 4 2;1 2 1] and for edge detection we consider [0 -1 0;-1 4 -1;0 -1 0] as kernels.Similarly for sharpening the image [0 -1 0;-1 5 -1;0 -1 0] is preferred as kernel.Along with kernel, we would consider a small matrix of image.At the intersities of the matrix is multiplied with the kernel,whose sum is replaces the center of the image.The same operation iterated through out the image.So each pixel of image is calculated by considering intensities of other pixels in matrix.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/114020643/191390158-3bdc133c-af0e-4239-b303-bce31a99bdd7.jpg" />
-</p>
+![blur_code](https://user-images.githubusercontent.com/114020643/191416534-5e4a26b8-ef60-4119-9953-57458d5c502d.jpg)
+
 
 ![sharpend_code](https://user-images.githubusercontent.com/114020643/191416434-9a7e14ca-93da-49c5-bf71-05c09941aa2c.jpg)
 
