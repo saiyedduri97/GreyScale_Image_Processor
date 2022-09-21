@@ -33,8 +33,6 @@ Inorder to process the pixels of the image, a widely popular mathematical techni
 
 ![blur_code](https://user-images.githubusercontent.com/114020643/191416534-5e4a26b8-ef60-4119-9953-57458d5c502d.jpg)
 
-![sharpend_code](https://user-images.githubusercontent.com/114020643/191416434-9a7e14ca-93da-49c5-bf71-05c09941aa2c.jpg)
-
 
 ### Conversion of pixels form unsigned integer to double datatype:
 Although both double precision numbers in range of 0 to 1 and unsignedintegers in range of 0 to 255 can be used to describe images, the image datatype is converted to double because it is provides more accurate values in the describing each pixel intensities
@@ -48,7 +46,7 @@ After converting back into unsigned integer from double precision, the generated
 ![Resul_image_visualization](https://user-images.githubusercontent.com/114020643/191404190-404af98f-967a-45f9-b5ff-3c372fe40f7f.jpg)
 
 
-## Version Requirements:
+## Software Requirements:
 - Requires [MATLAB](https://www.mathworks.com/help/install/install-products.html) 
 - Matlab [Image Processing Tool Box](https://www.mathworks.com/products/image.html) available for Mac, Windows and LINUX
 - Parallel Computing Toolbox is required for image processing on GPU. A list of supported functions is available on [the page](https://www.mathworks.com/products/image.html).
