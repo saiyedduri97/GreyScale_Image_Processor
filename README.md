@@ -18,9 +18,6 @@ the matlab_file_io_pavan has the main code for the program to run.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
 
 
-![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
-	
-<sub>Fig1: The above comparision represents comparison of the user image with the generated image after edge dection. text</sub>
 
 ## Review of Code:
 ### Reading the initial user image and requirements:
@@ -43,7 +40,9 @@ Although both double precision numbers in range of 0 to 1 and unsignedintegers i
 ## Image Visulalization:
 After converting back into unsigned integer from double precision, the generated is compared using subplot() function
 
-![Resul_image_visualization](https://user-images.githubusercontent.com/114020643/191404190-404af98f-967a-45f9-b5ff-3c372fe40f7f.jpg)
+![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
+	
+<sub>Fig1: The above comparision represents comparison of the user image with the generated image after edge dection. text</sub>
 
 
 ## Software Requirements:
