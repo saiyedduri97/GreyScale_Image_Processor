@@ -1,7 +1,7 @@
 # GreyScale_Image_Processor
 
 ## Description:
-Hello, Welcome to simple greyscale Image processer. Using this image processer, you can simply apply fully blur(or/and))sharpened blur(or/and)find edges to your greyscaled image using MATLAB. 
+Welcome to simple greyscale Image processer. Using this image processer, you can simply apply fully blur(or/and))sharpened blur(or/and)find edges to your greyscaled image using MATLAB. 
 
 ## Steps to Set up the Code:
 - The "GreyScale_Image_Processor" folder has six files of which
