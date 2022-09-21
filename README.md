@@ -18,7 +18,8 @@ the matlab_file_io_pavan has the main code for the program to run.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
 
 ![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
-	<sub>Fig1: The above comparision represents comparison of the user image with the generated image after edge dection. text</sub>
+	
+<sub>Fig1: The above comparision represents comparison of the user image with the generated image after edge dection. text</sub>
 
 ## Review of Code:
 ### Reading the initial user image and requirements:
