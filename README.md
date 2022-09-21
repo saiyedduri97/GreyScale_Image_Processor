@@ -18,30 +18,33 @@ the matlab_file_io_pavan has the main code for the program to run.
 
 ## Review of Code:
 ### Reading the initial user image and requirements:
-The Userinferace modal dialog box collects the greyscaled image with pixel values. The matlab UI facilitated this with well-customed prompt command called "uigetfile()" to save in the current folder with matlab folder of ".m"file. The image is read as matrix of pixel intensities ranging from 0 to 255 occupied throughout the size of the image by the "imread()". The level of modification is considered by input() commands and stors in the variables such as nr_blur,nr_sharpen and nr_edgethickness.
-## Imageprocessing Methods:
-### Convolution technique
-Inorder to process the pixels of the image, a widely popular mathematical technique known as convolution is employed.In this technique, we would consider a small matrix od image called the kernel. intensities of each perticular pixel per kernel is processed by summing over the all the intensities of the kernel.The same operation iterated through out the image.In this way, all the pixels are processed as per requirement.
-The primary difference between the Gausian blur,sharpening and edge detection is the 
-
-
-The change the intensity of pixel by summing over the all prixes in the kernel.
+The Userinferace modal dialog box collects the image with pixel values. The matlab UI facilitated this with well-customed prompt command called "uigetfile()" to save in the current folder with matlab folder of ".m"file. The greyscaled image is read as matrix of pixel intensities ranging from 0 to 255 occupied throughout the size of the image by the "imread()". The level of modification is considered by input() commands and stors in the variables such as nr_blur,nr_sharpen and nr_edgethickness.
+## Consideration of Imageprocessing Methods:
+### Convolution technique:
+Inorder to process the pixels of the image, a widely popular mathematical technique known as convolution is employed.In this technique, we consider a kernel based on the technique to be performed. For Gaussian blur we consider (1/16)*[1 2 1;2 4 2;1 2 1] and for edge detection we consider [0 -1 0;-1 4 -1;0 -1 0] as kernels.Similarly for sharpening the image [0 -1 0;-1 5 -1;0 -1 0] is preferred as kernel.Along with kernel, we would consider a small matrix of image.At the intersities of the matrix is multiplied with the kernel,whose sum is replaces the center of the image.The same operation iterated through out the image.So each pixel of image is calculated by considering intensities of other pixels in matrix.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191390229-7bcd106e-a57a-4def-95c0-cc2da2e8f85d.jpg" />
 </p>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191390158-3bdc133c-af0e-4239-b303-bce31a99bdd7.jpg" />
 </p>
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191390140-10296f8f-559a-4860-9595-9300191e5204.jpg" />
 </p>
-
-
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191388086-817bbb1a-e99a-4bc6-b603-712b3927aba7.jpg" />
 </p>
+
+### Conversion of pixels form unsigned integer to double datatype:
+Although both double precision numbers in range of 0 to 1 and unsignedintegers in range of 0 to 255 can be used to describe images, the image datatype is converted to double because it is provides more accurate values in the describing each pixel intensities
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/114020643/191403432-ef3b768a-b4aa-408f-997c-a80ae8ba9e7b.jpg" />
+</p>
+
+
+
+
+
 
 
 
