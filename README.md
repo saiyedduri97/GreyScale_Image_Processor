@@ -44,5 +44,6 @@ The Userinferace modal dialog box collects the greyscaled image with pixel value
 - Parallel Computing Toolbox is required for image processing on GPU. A list of supported functions is available on [the page](https://www.mathworks.com/products/image.html).
 - Deep Learning Toolbox is required for deep learning functionality. Parallel Computing Toolbox is required for GPU support. 
 
+
 ## CONTRIBUTIONS:
 - Project is done under the guidence of Dr. Uwe Pruefert.
