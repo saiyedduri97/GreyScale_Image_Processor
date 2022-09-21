@@ -9,12 +9,16 @@ the matlab_file_io_pavan has the main code for the program to run.
 - An example for greyscale image is provide with the name "GreyScaleImage.pgm" for the user.
 - The images that were generated after the running the code is also included with names: blurred5andsharpen.pgm,blurred5times.pgm,edgedetection.pgm.
 
+
 ## Steps to run the Code:
 - On the Editor or Live Editor tab, in the Run section, click  Run.
 - Upload the greyscaled image for processing (If not available: Please choose the "GreyScaleImage.pgm" image form the folder)
 - Choose the level of blur(or/and))sharpened blur(or/and)find edges to the image from 0 to 5. where,0 represents the no modification and 5 represents the highest modification.
 - Image processsing tool generates the processed image in comparision with the origional image.
 - Inorder to save in the current folder the processed image please click "y" indicating yes
+
+![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
+
 
 ## Review of Code:
 ### Reading the initial user image and requirements:
@@ -41,11 +45,10 @@ Although both double precision numbers in range of 0 to 1 and unsignedintegers i
   <img src="https://user-images.githubusercontent.com/114020643/191403432-ef3b768a-b4aa-408f-997c-a80ae8ba9e7b.jpg" />
 </p>
 
+## Image Visulalization:
+After converting back into unsigned integer from double precision, the generated is compared using subplot() function
 
-
-
-
-
+![Resul_image_visualization](https://user-images.githubusercontent.com/114020643/191404190-404af98f-967a-45f9-b5ff-3c372fe40f7f.jpg)
 
 
 ## Version Requirements:
