@@ -21,7 +21,7 @@ the matlab_file_io_pavan has the main code for the program to run.
 
 ## Review of Code:
 ### Reading the initial user image and requirements:
-The Userinferace modal dialog box collects the image with pixel values. The matlab UI facilitated this with well-customed prompt command called "uigetfile()" to save in the current folder with matlab folder of ".m"file. The greyscaled image is read as matrix of pixel intensities ranging from 0 to 255 occupied throughout the size of the image by the "imread()". The level of modification is considered by input() commands and stors in the variables such as nr_blur,nr_sharpen and nr_edgethickness.
+The Userinferace model dialog box collects the image with pixel values. The matlab UI facilitated this with well-customed prompt command called "uigetfile()" to save in the current folder with matlab folder of ".m"file. The greyscaled image is read as matrix of pixel intensities ranging from 0 to 255 occupied throughout the size of the image by the "imread()". The level of modification is considered by input() commands and stors in the variables such as nr_blur,nr_sharpen and nr_edgethickness.
 ![initial convertion](https://user-images.githubusercontent.com/114020643/191416723-c5acbc12-00f1-4a82-9f41-9d9cdc436c0e.jpg)
 
 ### Consideration of Imageprocessing Methods:
