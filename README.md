@@ -38,8 +38,7 @@ Although both double precision numbers in range of 0 to 1 and unsignedintegers i
 </p>
 
 ## Image Visulalization:
-After converting back into unsigned integer from double precision, the generated is compared using subplot() function. Image is generated following the 
-The processed image is then compared with with the user's origional image.
+After converting back into unsigned integer from double precision, the generated is compared using subplot() function. The processed image is then compared with with the user's origional image.
 
 ![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
 	
