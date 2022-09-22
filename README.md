@@ -25,13 +25,13 @@ The Userinferace modal dialog box collects the image with pixel values. The matl
 ![initial convertion](https://user-images.githubusercontent.com/114020643/191416723-c5acbc12-00f1-4a82-9f41-9d9cdc436c0e.jpg)
 
 ### Consideration of Imageprocessing Methods:
-#### Convolution technique:
+   #### Convolution technique:
 Inorder to process the pixels of the image, a widely popular mathematical technique known as convolution is employed.In this technique, we consider a kernel based on the technique to be performed. For Gaussian blur we consider (1/16)*[1 2 1;2 4 2;1 2 1] and for edge detection we consider [0 -1 0;-1 4 -1;0 -1 0] as kernels.Similarly for sharpening the image [0 -1 0;-1 5 -1;0 -1 0] is preferred as kernel.Along with kernel, we would consider a small matrix of image.At the intersities of the matrix is multiplied with the kernel,whose sum is replaces the center of the image.The same operation iterated through out the image.So each pixel of image is calculated by considering intensities of other pixels in matrix.
 
 ![blur_code](https://user-images.githubusercontent.com/114020643/191416534-5e4a26b8-ef60-4119-9953-57458d5c502d.jpg)
 
 
-### Conversion of pixels form unsigned integer to double datatype:
+   #### Conversion of pixels form unsigned integer to double datatype:
 Although both double precision numbers in range of 0 to 1 and unsignedintegers in range of 0 to 255 can be used to describe images, the image datatype is converted to double because it is provides more accurate values in the describing each pixel intensities
 <p align="center">
   <img src="https://user-images.githubusercontent.com/114020643/191403432-ef3b768a-b4aa-408f-997c-a80ae8ba9e7b.jpg" />
