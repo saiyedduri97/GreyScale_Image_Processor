@@ -43,7 +43,7 @@ The processed image is then compared with with the user's origional image.
 
 ![EDGE](https://user-images.githubusercontent.com/114020643/191405535-228b432c-7aae-41c4-b9b3-3fb5c6e22292.jpg)
 	
-<sub>Fig1: The above comparision represents comparison of the user image with the generated image after sharpening and edge dection.</sub>
+<sub>Fig1: The above comparision represents comparison of the user image with the generated image after sharpening and edge detection.</sub>
 
 
 ## Software Requirements:
