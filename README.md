@@ -1,4 +1,4 @@
-# GreyScale_Image_Processor user guide:
+# GreyScale_Image_Processor user guide for the application of Microstructures:
 
 ## Description:
 Welcome to simple greyscale Image processer. Using this image processer, you can simply apply fully blur(or/and))sharpened blur(or/and)find edges to your greyscaled image using MATLAB. 
