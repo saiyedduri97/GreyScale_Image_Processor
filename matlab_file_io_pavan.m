@@ -3,7 +3,7 @@ clear;
 %% Manual
 fprintf("Manual\n Hello, Welcome to simple greyscale Image processer.Using this image processer, you can apply fully blur/sharpened blur/find edges to your greyscaled image\n" + ...
     "You have to just upload your image and then answer few simple questions in command window based on your requirments\n")
-%%%%%%%%%%
+%%%%%%%%%%%%%%
 %% Reads initial image and takes user requirements
 selected_img_name = uigetfile('*.pgm','Please select a file for image processing');  
 IM=imread(selected_img_name);% reads the input_image of size 512 by 512
